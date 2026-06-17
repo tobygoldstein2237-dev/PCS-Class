@@ -1,0 +1,14 @@
+C:\Users\tobyg\source\repos\Homework\HW48\bin\Debug\net10.0\HW48.exe
+C:\Users\tobyg\source\repos\Homework\HW48\bin\Debug\net10.0\HW48.deps.json
+C:\Users\tobyg\source\repos\Homework\HW48\bin\Debug\net10.0\HW48.runtimeconfig.json
+C:\Users\tobyg\source\repos\Homework\HW48\bin\Debug\net10.0\HW48.dll
+C:\Users\tobyg\source\repos\Homework\HW48\bin\Debug\net10.0\HW48.pdb
+C:\Users\tobyg\source\repos\Homework\HW48\obj\Debug\net10.0\HW48.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tobyg\source\repos\Homework\HW48\obj\Debug\net10.0\HW48.AssemblyInfoInputs.cache
+C:\Users\tobyg\source\repos\Homework\HW48\obj\Debug\net10.0\HW48.AssemblyInfo.cs
+C:\Users\tobyg\source\repos\Homework\HW48\obj\Debug\net10.0\HW48.csproj.CoreCompileInputs.cache
+C:\Users\tobyg\source\repos\Homework\HW48\obj\Debug\net10.0\HW48.dll
+C:\Users\tobyg\source\repos\Homework\HW48\obj\Debug\net10.0\refint\HW48.dll
+C:\Users\tobyg\source\repos\Homework\HW48\obj\Debug\net10.0\HW48.pdb
+C:\Users\tobyg\source\repos\Homework\HW48\obj\Debug\net10.0\HW48.genruntimeconfig.cache
+C:\Users\tobyg\source\repos\Homework\HW48\obj\Debug\net10.0\ref\HW48.dll
