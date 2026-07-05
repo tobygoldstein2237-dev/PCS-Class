@@ -22,10 +22,21 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="images/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
     <style>
         img {
             height: 120px;
             width: 120px;
+        }
+
+        header img {
+            height: auto;
+            width: auto;
+            max-height: 60px;
         }
 
         ul {
@@ -36,29 +47,33 @@
             h1 {
                 border-bottom: 2px solid black;
                 opacity: 0.6;
+                font-family: broadway, sans-serif;
             }
 
         }
 
         header {
-            margin-bottom: 10px;
+            Margin-bottom: 10px;
             border-bottom: 2px solid black;
         }
     </style>
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/menu.css">
 
 </head>
 
 <body>
-    <a href="index.html">Home</a> |
-    <a href="menu.html">Our Menu</a> |
-    <a href="hoursLocation.html">Hours & Location</a> |
-    <a href="reservations.html">Reservations</a> |
-    <a href="orderNow.html">Order Now</a> |
-    <a href="gallery.html">Gallery</a> |
-    <a href="hechsher.html">Hechsher</a>
     <header>
-        the aberdeen table
+        <img src="images/toolbarLogo.png" alt="logo">
+        <img src="images/toolbarName.png" alt="name">
+        <section class="titleBar">
+            <a href="index.html">Home</a> |
+            <a href="menu.html">Our Menu</a> |
+            <a href="hoursLocation.html">Hours & Location</a> |
+            <a href="reservations.html">Reservations</a> |
+            <a href="orderNow.html">Order Now</a> |
+            <a href="gallery.html">Gallery</a> |
+            <a href="hechsher.html">Hashgacha</a>
+        </section>
     </header>
 
     <div>
@@ -101,7 +116,66 @@
         </div>
     </section>
 
-    <h2>Appetizers</h2>
+    <section>
+        <h2>Appetizers</h2>
+        <div class="featured-container">
+            <div class="menuItem">
+                <div class="featuredItem-text">
+                    <h4>Cheese Blintzes</h4>
+                    <h5>three savory, slightly sweet cheese blintzes, topped with warm blueberry compote, finished with
+                        a
+                        dusting of powdered sugar and whipped cream.</h5>
+                </div>
+                <img src="images/cheeseBlintzes.png" alt="cheese blintzes">
+            </div>
+            <div class="menuItem">
+                <div class="featuredItem-text">
+                    <h4>Creamy Tuscan Gnocchi</h4>
+                    <h5>soft potato gnocchi tossed in a rich Parmesan cream sauce with fresh spinach, sun-dried
+                        tomatoes,
+                        and aromatic herbs. Finished with grated Parmesan, cracked black pepper, and fresh basil</h5>
+                </div>
+                <img src="images/gnocchi.png" alt="gnocchi">
+            </div>
+            <div class="menuItem">
+                <div class="featuredItem-text">
+                    <h4>Crispy Fish Tacos</h4>
+                    <h5>Golden crispy white fish served in warm grilled corn tortillas with crunchy cabbage slaw, fresh
+                        pico de gallo, and a zesty house sauce. Finished with fresh cilantro and lime.</h5>
+
+                </div>
+                <img src="images/fishTacos.png" alt="fish tacos">
+            </div>
+            <div class="menuItem">
+                <div class="featuredItem-text">
+                    <h4>Loaded Nachos</h4>
+                    <h5>crispy tortilla chips piled with melted cheese, pico de gallo, jalapeños, black olives, and red
+                        onion, served with sour cream and guacamole</h5>
+
+                </div>
+                <img src="images/nachos.png" alt="nachos">
+            </div>
+            <div class="menuItem">
+                <div class="featuredItem-text">
+                    <h4>Eggplant Spinach Rollatini</h4>
+                    <h5>breaded eggplant, filled with spinach and mixed cheeses, topped with marinara, parmesan
+                    </h5>
+                </div>
+                <img src="images/eggplant.png" alt="eggplant">
+            </div>
+            <div class="menuItem">
+                <div class="featuredItem-text">
+                    <h4>Tuna Tartare</h4>
+                    <h5>description
+                    </h5>
+                </div>
+                <img src="images/tunaTartare.png" alt="tartare">
+            </div>
+
+
+        </div>
+    </section>
+
     <h2>Fish</h2>
     <h2>Pastas</h2>
     <h2>Sides</h2>
@@ -197,6 +271,8 @@
     <h2>Cocktails</h2>
 
 
+
+    </section>
 
     <section class="hoursLocation">
         <h4 class="hours">Hours of Operation:</h4>
