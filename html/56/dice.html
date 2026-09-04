@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Grid Dice</title>
+    <style>
+        .dice-container {
+            display: grid;
+            grid-template-columns: repeat(3, 100px);
+            grid-template-rows: repeat(2, 100px);
+            gap: 10px;
+            margin: 20px;
+        }
+
+        .die {
+            background-color: white;
+            border: 2px solid #ccc;
+            display: grid;
+            justify-content: center;
+            align-items: center;
+            font-size: 24px;
+            font-weight: bold;
+            grid-template-columns: repeat(6, 1fr);
+            grid-template-rows: repeat(6, 1fr);
+
+            grid-template-areas:
+                "tl tl tl tr tr tr"
+                "tl tl tl tr tr tr"
+                ". ml cc cc mr ."
+                ". ml cc cc mr ."
+                "bl bl bl br br br"
+                "bl bl bl br br br";
+        }
+
+
+        .dot {
+            width: 18px;
+            height: 18px;
+            background: black;
+            border-radius: 50%;
+            justify-self: center;
+            align-self: center;
+        }
+
+        .tl {
+            grid-area: tl;
+        }
+
+        .tr {
+            grid-area: tr;
+        }
+
+        .ml {
+            grid-area: ml;
+        }
+
+        .mr {
+            grid-area: mr;
+        }
+
+        .bl {
+            grid-area: bl;
+        }
+
+        .br {
+            grid-area: br;
+        }
+
+        .cc {
+            grid-area: cc;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="dice-container">
+
+        <div class="die one">
+            <div class="dot cc"></div>
+        </div>
+        <div class="die two">
+            <div class="dot tl"></div>
+            <div class="dot br"></div>
+        </div>
+        <div class="die three">
+            <div class="dot tl"></div>
+            <div class="dot cc"></div>
+            <div class="dot br"></div>
+        </div>
+        <div class="die four">
+            <div class="dot tl"></div>
+            <div class="dot bl"></div>
+            <div class="dot tr"></div>
+            <div class="dot br"></div>
+        </div>
+        <div class="die five">
+            <div class="dot tl"></div>
+            <div class="dot bl"></div>
+            <div class="dot cc"></div>
+            <div class="dot tr"></div>
+            <div class="dot br"></div>
+        </div>
+        <div class="die six">
+            <div class="dot tl"></div>
+            <div class="dot ml"></div>
+            <div class="dot bl"></div>
+            <div class="dot tr"></div>
+            <div class="dot mr"></div>
+            <div class="dot br"></div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

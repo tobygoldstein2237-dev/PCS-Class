@@ -1,0 +1,230 @@
+body {
+    padding-top: 85px;
+    margin: 0;
+
+}
+
+#topPage {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #FFDAB9;
+    color: black;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: bold;
+    font-family: Avenir, sans-serif;
+    font-size: 1em;
+    opacity: 0.7;
+    Z-index: 1000;
+
+}
+
+header {
+    display: flex;
+    align-items: center;
+    /* Centers top/bottom */
+    justify-content: space-between;
+    padding: 0 20px;
+    background: #f6d8bb;
+    height: 75px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+.titleBar {
+    background-color: #FFDAB9;
+    padding: 10px;
+    text-align: left;
+    font-family: Avenir, sans-serif;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 0px;
+}
+
+@media (max-width: 900px) {
+    .titleBar {
+        font-size: 1em;
+    }
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    font-family: Avenir, sans-serif;
+    text-align: right;
+    opacity: 0.7;
+}
+
+a:link {
+    color: black;
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    color: purple;
+}
+
+a:active {
+    color: red;
+}
+
+a[href="/TATMenu.docx"] {
+    font-weight: bold;
+    font-family: broadway, sans-serif;
+    padding-left: 32px;
+    font-size: 1.4em;
+    text-align: right;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 20px;
+    text-decoration: underline;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.featured-container {
+    h4 {
+        text-decoration: underline;
+    }
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    align-items: stretch;
+
+
+
+}
+
+.menuItem h5::first-letter {
+    text-transform: uppercase;
+
+}
+
+.menuItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    border: 3px solid lightsalmon;
+    border-radius: 15px;
+
+    padding: 20px;
+    width: 100%;
+    max-width: 700px;
+    box-sizing: border-box;
+    margin-left: 20px;
+    background-color: rgba(246, 216, 187, 0.5);
+
+
+}
+
+.menuItem:hover {
+    scale: 1.05;
+    /*transition: transform 0.3s ease;*/
+    cursor: pointer;
+
+}
+
+.menuItem>img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+
+ul {
+    padding-left: 20px;
+    margin-top: 10px;
+}
+
+.saladoptions {
+    display: flex;
+    gap: 5px;
+    align-items: flex-start;
+    width: fit-content;
+}
+
+.saladtoppings {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+h2 {
+    font-weight: bold;
+    font-family: broadway, sans-serif;
+    padding-left: 32px;
+}
+
+h4,
+h5 {
+    font-family: roboto;
+}
+
+section {
+    margin-bottom: 80px;
+}
+
+
+.search-container {
+    position: relative;
+    width: 400px;
+}
+
+.search-bar {
+    width: 100%;
+    padding: 15px 55px 15px 20px;
+    /* Extra padding on the right for the icon */
+    border: 2px solid #ccc;
+    border-radius: 30px;
+    font-size: 20px;
+    box-sizing: border-box;
+}
+
+.search-bar:focus {
+    outline: none;
+    border-color: lightsalmon;
+    box-shadow: 0 0 5px #f6d8bb;
+}
+
+.search-btn {
+    position: absolute;
+    top: 50%;
+    right: 8px;
+    transform: translateY(-50%);
+
+    width: 42px;
+    height: 42px;
+    border: none;
+    border-radius: 50%;
+
+    background: lightsalmon;
+    cursor: pointer;
+    font-size: 18px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-btn:hover {
+    background: salmon;
+}

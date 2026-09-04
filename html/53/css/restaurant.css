@@ -1,0 +1,170 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css');
+
+
+header {
+    display: flex;
+    align-items: center;
+    /* Centers top/bottom */
+    justify-content: space-between;
+    padding: 0 20px;
+    background: #f6d8bb;
+    height: 75px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+.titleBar {
+    background-color: #FFDAB9;
+    padding: 10px;
+    text-align: left;
+    font-family: Avenir, sans-serif;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 0px;
+}
+
+@media (max-width: 900px) {
+    .titleBar {
+        font-size: 1em;
+    }
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    font-family: Avenir, sans-serif;
+    text-align: right;
+    opacity: 0.7;
+}
+
+a:link,
+a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    color: purple;
+}
+
+a:active {
+    color: red;
+}
+
+.section1 {
+    height: 100vh;
+    box-sizing: border-box;
+    margin: 0;
+    padding-top: 85px;
+    /* matches your fixed header height */
+    overflow: hidden;
+    position: relative;
+
+}
+
+.welcome {
+    .tagline {
+        white-space: nowrap;
+    }
+
+    h4 {
+        font-size: 1.5em;
+        letter-spacing: 2px;
+    }
+
+    font-size: 1.25em;
+    line-height: 1.6;
+    color: white;
+    font-family: verdana,
+    sans-serif;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+    text-shadow: -1px -1px 0 black,
+    1px -1px 0 black,
+    -1px 1px 0 black,
+    1px 1px 0 black;
+    position: absolute;
+    top: 150px;
+    left: 100px;
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 60px;
+    overflow: hidden;
+
+}
+
+
+.welcome p {
+    margin: 0;
+}
+
+.hoursLocation {
+    vertical-align: middle;
+    background-color: rgba(246, 216, 187, 0.3);
+    padding: 20px;
+    color: sienna
+}
+
+.hours {
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color: sienna;
+    font-family: Verdana, cursive;
+}
+
+.hechsher {
+    overflow: visible;
+    background-color: rgba(246, 216, 187, 0.3);
+}
+
+.hechsher img {
+    float: right;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    position: relative;
+    z-index: 10;
+    padding-right: 10px;
+
+}
+
+.hechsher img[src="images/zeatle.png"] {
+    margin-top: 6px;
+    margin-left: 0px;
+}
+
+.hechsher img[src="images/kosher.png"] {
+    margin-top: 70px;
+}
+
+
+.hechsher p {
+    line-height: 1.2;
+    color: black;
+    translate: 0px 32px;
+    /* background-color: rgba(246, 216, 187, 0.3); */
+    padding: 32px;
+
+
+}
+
+p {
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-family: verdana, sans-serif;
+    font-size: 1.25em;
+
+}
