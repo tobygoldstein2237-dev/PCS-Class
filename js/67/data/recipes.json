@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1,
+        "name": "Chulent",
+        "url": "data/chulent.json"
+    },
+    {
+        "id": 2,
+        "name": "grilled chicken",
+        "url": "data/grilledChicken.json"
+    },
+    {
+        "id": 3,
+        "name": "deli roll",
+        "url": "data/deliRoll.json"
+    }
+]

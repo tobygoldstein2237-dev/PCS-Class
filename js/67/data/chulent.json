@@ -1,0 +1,12 @@
+{
+    "id": 1,
+    "name": "Chulent",
+    "ingredients": [
+        "potatoes",
+        "onions",
+        "meat",
+        "beans",
+        "barley"
+    ],
+    "pictureUrl": "data/images/Cholent.png"
+}

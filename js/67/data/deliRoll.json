@@ -1,0 +1,11 @@
+{
+    "id": 3,
+    "name": "deli roll",
+    "ingredients": [
+        "puff pastry",
+        "deli",
+        "mustard",
+        "honey"
+    ],
+    "pictureUrl": "data/images/deliRoll.jpg"
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wikipedia Map Explorer</title>
+
+    <link rel="stylesheet" href="styles.css">
+
+    <script src="script.js" defer></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDmI8oiwKiZ2odgjqsIo01ZpRvyv6KDjP8&callback=initMap"
+        defer>
+        </script>
+</head>
+
+<body>
+    <h1>Wikipedia Map Explorer</h1>
+
+    <form id="searchForm">
+        <input type="text" id="searchInput" placeholder="Search Wikipedia..." required>
+        <button type="submit">Search</button>
+    </form>
+
+    <p id="status"></p>
+
+    <div id="container">
+        <div id="results"></div>
+        <div id="map"></div>
+    </div>
+</body>
+
+</html>

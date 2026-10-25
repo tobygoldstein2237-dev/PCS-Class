@@ -1,0 +1,20 @@
+[
+    {
+        "first": "Toby",
+        "last": "Goldstein",
+        "email": "tobyrgoldstein@gmail.com",
+        "phone": "845-925-3233"
+    },
+    {
+        "first": "Rivka",
+        "last": "Goldman",
+        "email": "rmatt@gmail.com",
+        "phone": "845-570-1809"
+    },
+    {
+        "first": "Pinni",
+        "last": "Matlin",
+        "email": "pinni@example.com",
+        "phone": "304-6527"
+    }
+]

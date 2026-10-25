@@ -1,0 +1,11 @@
+{
+    "id": 2,
+    "name": "grilled chicken",
+    "ingredients": [
+        "chicken",
+        "oil",
+        "lemon juice",
+        "spices"
+    ],
+    "pictureUrl": "data/images/grilledChicken.png"
+}
