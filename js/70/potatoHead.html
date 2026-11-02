@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="potatoHead.css">
+</head>
+
+<body>
+    <header>
+        <h1> 🥔 Mr. Potato Head</h1>
+        <p>Pick a part, drag it onto your potato, and make a masterpiece!</p>
+
+    </header>
+
+    <main>
+        <aside>
+            <h2>Dress-up box</h2>
+            <label for="category">Choose a category:</label>
+            <select id="category">
+                <option value="">-- Select a category --</option>
+                <option value="armsAndAccessories">Arms and Accessories</option>
+                <option value="body">Body</option>
+                <option value="ears">Ears</option>
+                <option value="eyebrows">Eyebrows</option>
+                <option value="eyes">Eyes</option>
+                <option value="glassesAndAccessories">Glasses and Accessories</option>
+                <option value="hair">Hair</option>
+                <option value="hats">Hats</option>
+                <option value="mouths">Mouths</option>
+                <option value="noses">Noses</option>
+                <option value="shoes">Shoes</option>
+            </select>
+
+            <div id="parts" class="parts"></div>
+
+            <p class="instructions">
+                Click a part to add it. Drag it around the stage. Click a placed part to resize or rotate it.
+            </p>
+        </aside>
+        <section class="workspace">
+            <div class="toolbar">
+                <label>Scene
+                    <select id="scene">
+                        <option value="">-- Select a scene --</option>
+                        <option value="beach">Beach</option>
+                        <option value="birthday">Birthday</option>
+                        <option value="garden">Garden</option>
+                        <option value="outerSpace">Outer Space</option>
+                        <option value="theater">Theater</option>
+                        <option value="toyRoom">Toy Room</option>
+
+                    </select>
+                </label>
+                <label>Music
+                    <select id="song">
+                        <option value="">-- Select a song --</option>
+                        <option value="happy">Happy</option>
+                        <option value="bouncy">Bouncy</option>
+                        <option value="dreamy">Dreamy</option>
+
+                    </select>
+                </label>
+                <button id="music">
+                    ♫ Play music
+                </button>
+            </div>
+            <div id="stage">
+                <img id="potato" src="images/body/body_01.png" alt="Potato body" draggable="false">
+            </div>
+
+            <div class="edit">
+                <button id="smaller">- Smaller</button>
+                <button id="bigger">+ Bigger</button>
+                <button id="rotate">↻ Rotate</button>
+                <button id="delete">🗑 Remove</button>
+                <button id="clear">✨ New picture</button>
+
+            </div>
+            <div class="save">
+                <input id="pictureName" placeholder="Name your picture" maxlength="50">
+                <button id="save">💾 Save Picture</button>
+                <select id="saved">>
+                    <option value>Choose a saved picture</option>
+
+                </select>
+                <button id="load">Load</button>
+                <button id="deleteSaved">🗑 Delete Saved</button>
+            </div>
+
+        </section>
+    </main>
+
+
+
+    <footer>Made with imagination ✨ Your work is saved automatically in this browser.
+
+    </footer>
+
+
+    <script src="potatoHead.js" type="module"></script>
+
+
+</body>
+
+</html>
