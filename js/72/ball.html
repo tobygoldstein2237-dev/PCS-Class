@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bouncing Balls</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        #controls {
+            padding: 15px;
+            background-color: lightblue;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        #theCanvas {
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="controls">
+        <label for="color">Ball Color:</label>
+        <input type="color" id="color" value="#ff0000">
+
+        <label for="radius">Radius:</label>
+        <input type="number" id="radius" value="50" min="5" max="150">
+
+        <button id="addBall">Add Ball</button>
+    </div>
+
+    <canvas id="theCanvas"></canvas>
+
+    <script src="ball.js" type="module"></script>
+
+</body>
+
+</html>
